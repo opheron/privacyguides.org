@@ -6,6 +6,9 @@ items:
     icon: fab fa-android
     file: _evergreen/android.md
   - type: link
+    title: iOS
+    icon: fab fa-apple
+    file: _evergreen/ios.md
     title: Linux Desktop
     icon: fab fa-linux
     file: _evergreen/linux-desktop.md
