@@ -291,9 +291,9 @@ Fedora includes SELinux preconfigured with some policies that will confine [syst
 
 openSUSE gives the choice of AppArmor or SELinux during the installation process. We recommend sticking to the default for each variant (AppArmor for [Tumbleweed](https://get.opensuse.org/tumbleweed/) and SELinux for [MicroOS](https://microos.opensuse.org/)). openSUSE’s SELinux policies are derived from Fedora.
 
-Arch and Arch-based operating systems often do not come with a mandatory access control system and that must be configured manually for either [AppArmor](https://wiki.archlinux.org/title/AppArmor) or [SELinux](https://wiki.archlinux.org/title/SELinux).
+Arch and Arch-based operating systems often do not come with a mandatory access control system; that must be configured manually for either [AppArmor](https://wiki.archlinux.org/title/AppArmor) or [SELinux](https://wiki.archlinux.org/title/SELinux).
 
-Linux desktops don't usually include individual app confinement rules, unlike Android which sandboxes every application installed.
+Linux desktops don't usually include individual app confinement rules, unlike Android, which sandboxes every application installed.
 
 ### Making your own policies/profiles
 
